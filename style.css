@@ -1,92 +1,51 @@
-* ** {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f9f9f9;
-  color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f2f5;
+    color: #333;
 }
 
-/* NAVBAR */
-.navbar {
-  background-color: #333;
-  padding: 20px;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.logo {
-  font-size: 22px;
-  font-weight: bold;
-}
-.nav-links {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.nav-links li a {
-  color: white;
-  text-decoration: none;
-  font-size: 14px;
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
 }
 
-/* HERO SECTION */
-.hero {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 60px 10%;
-  background-color: #eee;
-}
-.hero-left {
-  max-width: 50%;
-}
-.hero-left h1 {
-  font-size: 32px;
-  margin-bottom: 15px;
-}
-.hero-left p {
-  font-size: 16px;
-  margin-bottom: 20px;
-}
-.btn {
-  background-color: #007bff;
-  color: white;
-  text-decoration: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-}
-.hero-right img {
-  width: 300px;
-  height: auto;
-  border-radius: 8px;
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
 }
 
-/* ABOUT SECTION */
-.about {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 60px 10%;
-  background-color: white;
+#about img {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 10px;
 }
-.about-left img {
-  width: 300px;
-  border-radius: 10px;
+
+ul {
+    list-style: none;
+    padding: 0;
 }
-.about-right {
-  max-width: 50%;
+
+ul li {
+    background: #e0e0e0;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
 }
-.about-right h2 {
-  margin-bottom: 15px;
+
+.project {
+    margin-bottom: 15px;
 }
-.about-right p {
-  margin-bottom: 10px;
-}
-.download {
-  background-color: #0a66c2;
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
 }
